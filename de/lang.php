@@ -145,6 +145,12 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Dieser Vorgang kann nicht rückgängig gemacht werden. Alle persönlichen Daten werden dauerhaft gelöscht.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Konto löschen',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Sind Sie sicher, dass Sie Ihr Konto löschen wollen?',
+
+    // Account -> My product reviews
+    'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Artikelbewertung und Kommentar löschen',
+    'PRODUCT_REVIEWS'                                 => 'Meine Artikelbewertungen',
+    'DD_PRODUCT_REVIEWS'                                    => 'Artikelbewertungen',
+    'DD_PROCUCT_REVIEWS_NOT_AVAILABLE'                      => 'Es liegen keine Artikelbewertungen vor',
 );
 
 /*
