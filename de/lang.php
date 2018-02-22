@@ -148,9 +148,8 @@ $aLang = array(
 
     // Account -> My product reviews
     'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Artikelbewertung und Kommentar löschen',
-    'PRODUCT_REVIEWS'                                 => 'Meine Artikelbewertungen',
-    'DD_PRODUCT_REVIEWS'                                    => 'Artikelbewertungen',
     'DD_PROCUCT_REVIEWS_NOT_AVAILABLE'                      => 'Es liegen keine Artikelbewertungen vor',
+    'DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION'        => 'Are you sure you want to delete product review?',
 );
 
 /*

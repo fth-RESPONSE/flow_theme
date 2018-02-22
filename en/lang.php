@@ -148,9 +148,8 @@ $aLang = array(
 
     // Account -> My product reviews
     'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Delete product review and rating',
-    'PRODUCT_REVIEWS'                                 => 'My product reviews',
-    'DD_PRODUCT_REVIEWS'                                    => 'Product reviews',
     'DD_PROCUCT_REVIEWS_NOT_AVAILABLE'                      => 'No reviews available',
+    'DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION'        => 'Are you sure you want to delete product review?',
 );
 
 /*
