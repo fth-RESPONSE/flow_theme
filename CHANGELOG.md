@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Template:
     - `page/account/delete_my_account_confirmation.tpl`
     - `page/account/productreviews.tpl` 
-    - `form/fieldset/delete_shipping_address_modal.tpl`   
+    - `page/account/delete_product_review_confirmation.tpl`
+    - `form/fieldset/delete_shipping_address_modal.tpl`
+      
 - Block:
     - `account_order_history_cart_items` in page/account/order.tpl
     - `account_dashboard_delete_my_account` in page/account/dashboard.tpl
@@ -24,14 +26,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
     - `account_reviewlist_list` in page/account/productreviews.tpl
     - `account_reviewlist_item` in page/account/productreviews.tpl
     - `account_reviewlist_item_action` in page/account/productreviews.tpl
-    - `account_reviewlist_item_form` in page/account/productreviews.tpl
-    - `account_reviewlist_no_reviews_available` in page/account/productreviews.tpl
+    - `account_reviewlist_no_reviews_available` in page/account/productreviews.tpl    
+    - `delete_product_review_confirmation_modal` in page/account/delete_product_review_confirmation.tpl
+    - `delete_product_review_confirmation_modal_header` in page/account/delete_product_review_confirmation.tpl
+    - `delete_product_review_confirmation_modal_body` in page/account/delete_product_review_confirmation.tpl
+    - `delete_product_review_confirmation_modal_form` in page/account/delete_product_review_confirmation.tpl
+    - `delete_product_review_confirmation_modal_buttons_set` in page/account/delete_product_review_confirmation.tpl
     
 - Multilang string: 
     - `DD_DELETE_PRODUCT_REVIEW_AND_RATING`
+    - `DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION`
     - `DD_PROCUCT_REVIEWS_NOT_AVAILABLE`
     - `DELETE`   
-    - `DELETE_SHIPPING_ADDRESS`
+    - `DELETE_SHIPPING_ADDRESS`    
     
 - Feature: a user has the possibility to delete a shipping address
 - Feature: a user has the posibility to delete own reviews and ratings, if this option is enabled in the shop
