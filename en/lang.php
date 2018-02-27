@@ -147,9 +147,9 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Are you sure you want to delete your account?',
 
     // Account -> My product reviews
-    'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Delete product review and rating',
+    'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Delete product review and star rating',
     'DD_PROCUCT_REVIEWS_NOT_AVAILABLE'                      => 'No reviews available',
-    'DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION'        => 'Are you sure you want to delete product review?',
+    'DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION'        => 'Are you sure you want to delete the product review?',
 );
 
 /*
