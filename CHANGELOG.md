@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Template:
     - `page/account/delete_my_account_confirmation.tpl`
-    - `page/account/productreviews.tpl` 
-    - `page/account/delete_product_review_confirmation.tpl`
+    - `page/account/articlereviews.tpl` 
+    - `page/account/delete_article_review_confirmation.tpl`
     - `form/fieldset/delete_shipping_address_modal.tpl`
       
 - Block:
@@ -21,17 +21,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
     - `account_delete_my_account_confirmation_warning_message` in page/account/delete_my_account_confirmation.tpl
     - `account_delete_my_account_confirmation_form` in page/account/delete_my_account_confirmation.tpl
     - `account_delete_my_account_confirmation_form_button_set` in page/account/delete_my_account_confirmation.tpl
-    - `account_reviewlist_header` in page/account/productreviews.tpl
-    - `account_reviewlist_locator` in page/account/productreviews.tpl
-    - `account_reviewlist_list` in page/account/productreviews.tpl
-    - `account_reviewlist_item` in page/account/productreviews.tpl
-    - `account_reviewlist_item_action` in page/account/productreviews.tpl
-    - `account_reviewlist_no_reviews_available` in page/account/productreviews.tpl    
-    - `delete_product_review_confirmation_modal` in page/account/delete_product_review_confirmation.tpl
-    - `delete_product_review_confirmation_modal_header` in page/account/delete_product_review_confirmation.tpl
-    - `delete_product_review_confirmation_modal_body` in page/account/delete_product_review_confirmation.tpl
-    - `delete_product_review_confirmation_modal_form` in page/account/delete_product_review_confirmation.tpl
-    - `delete_product_review_confirmation_modal_buttons_set` in page/account/delete_product_review_confirmation.tpl
+    - `account_reviewlist_header` in page/account/articlereviews.tpl
+    - `account_reviewlist_locator` in page/account/articlereviews.tpl
+    - `account_reviewlist_list` in page/account/articlereviews.tpl
+    - `account_reviewlist_item` in page/account/articlereviews.tpl
+    - `account_reviewlist_item_action` in page/account/articlereviews.tpl
+    - `account_reviewlist_no_reviews_available` in page/account/articlereviews.tpl    
+    - `delete_article_review_confirmation_modal` in page/account/delete_article_review_confirmation.tpl
+    - `delete_article_review_confirmation_modal_header` in page/account/delete_article_review_confirmation.tpl
+    - `delete_article_review_confirmation_modal_body` in page/account/delete_article_review_confirmation.tpl
+    - `delete_article_review_confirmation_modal_form` in page/account/delete_article_review_confirmation.tpl
+    - `delete_article_review_confirmation_modal_buttons_set` in page/account/delete_article_review_confirmation.tpl
     
 - Multilang string: 
     - `DD_DELETE_PRODUCT_REVIEW_AND_RATING`

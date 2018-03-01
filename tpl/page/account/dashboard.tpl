@@ -100,7 +100,7 @@
                             <div class="panel-body">[{oxmultilang ident="LISTS"}] [{if $oxcmp_user->getRecommListsCount()}][{$oxcmp_user->getRecommListsCount()}][{else}]0[{/if}]</div>
                         </div>
                     [{/if}]
-                    [{if $oView->getShowProductReviewList()}]
+                    [{if $oView->isUserAllowedToManageOwnArticleReviews()}]
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <a href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=account_reviewlist"}]">[{oxmultilang ident="MY_PRODUCT_REVIEWS"}]</a>
@@ -108,7 +108,7 @@
                                     <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
-                            <div class="panel-body">[{oxmultilang ident="MY_PRODUCT_REVIEWS"}] [{if $oView->getProductReviewItemsCnt()}][{$oView->getProductReviewItemsCnt()}][{else}]0[{/if}]</div>
+                            <div class="panel-body">[{oxmultilang ident="MY_PRODUCT_REVIEWS"}] [{if $oView->getArticleReviewItemsCnt()}][{$oView->getArticleReviewItemsCnt()}][{else}]0[{/if}]</div>
                         </div>
                     [{/if}]
                 [{/block}]
