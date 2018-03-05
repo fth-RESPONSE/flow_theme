@@ -147,9 +147,9 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Sind Sie sicher, dass Sie Ihr Konto löschen wollen?',
 
     // Account -> My product reviews
-    'DD_DELETE_PRODUCT_REVIEW_AND_RATING'                   => 'Artikelbewertung und Sterne-Rating löschen',
-    'DD_PROCUCT_REVIEWS_NOT_AVAILABLE'                      => 'Es liegen keine Artikelbewertungen vor',
-    'DD_DELETE_PRODUCT_REVIEW_CONFIRMATION_QUESTION'        => 'Sind Sie sicher, dass Sie die Artikelbewertung löschen wollen?',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Bewertung und Sterne-Rating löschen',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Es liegen keine Bewertungen vor',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sind Sie sicher, dass Sie die Bewertung löschen wollen?',
 );
 
 /*
