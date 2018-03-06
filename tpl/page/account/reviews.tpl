@@ -58,14 +58,15 @@
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
+                                [{if $review->getReviewText()}]
+                                    <div class="panel-body" id="reviewText_[{$smarty.foreach.ReviewsCounter.iteration}]" itemprop="description">[{$review->getReviewText()}]</div>
+                                [{/if}]
                             </div>
-                            <div class="panel-body" id="reviewText_[{$smarty.foreach.ReviewsCounter.iteration}]" itemprop="description">[{$review->getReviewText()}]</div>
                         [{/block}]
                         [{include
                             file="page/account/delete_review_confirmation.tpl"
                             reviewId=$review->getReviewId()
                             ratingId=$review->getRatingId()
-                            review=$review
                             reviewCounterIteration=$smarty.foreach.ReviewsCounter.iteration
                         }]
                     [{/foreach}]
