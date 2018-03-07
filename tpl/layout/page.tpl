@@ -48,6 +48,10 @@
                                 [{block name="content_main"}]
                                     [{include file="message/errors.tpl"}]
 
+                                    [{foreach from=$displayMessages item=messages key=level }]
+                                        [{include file="message/messages.tpl" level=$level messages=$messages}]
+                                    [{/foreach}]
+
                                     [{foreach from=$oxidBlock_content item="_block"}]
                                         [{$_block}]
                                     [{/foreach}]
