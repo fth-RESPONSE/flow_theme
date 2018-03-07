@@ -108,7 +108,7 @@
                                     <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
-                            <div class="panel-body">[{oxmultilang ident="MY_REVIEWS"}] [{if $oView->getReviewItemsCnt()}][{$oView->getReviewItemsCnt()}][{else}]0[{/if}]</div>
+                            <div class="panel-body">[{oxmultilang ident="MY_REVIEWS"}] [{if $oView->getReviewItemsCount()}][{$oView->getReviewItemsCount()}][{else}]0[{/if}]</div>
                         </div>
                     [{/if}]
                 [{/block}]
