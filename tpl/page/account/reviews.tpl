@@ -9,7 +9,7 @@
 
     [{block name="account_reviewlist_list"}]
         <div id="review">
-            [{if $oView->getReviewItemsCount() }]
+            [{if $oView->getReviewAndRatingItemsCount() }]
                 <div class="spacer"></div>
                 <div class="reviews-landscape">
                     [{foreach from=$oView->getReviewList() item=review name=ReviewsCounter}]

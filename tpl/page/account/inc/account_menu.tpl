@@ -39,7 +39,7 @@
             [{if $oView->isUserAllowedToManageOwnReviews()}]
                 <li class="list-group-item[{if $active_link == "reviewlist"}] active[{/if}]">
                     <a href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=account_reviewlist"}]" title="[{oxmultilang ident="MY_REVIEWS"}]">[{oxmultilang ident="MY_REVIEWS"}]
-                        [{if $oView->getReviewItemsCount() > 0}]<span class="badge">[{$oView->getReviewItemsCount()}]</span>[{/if}]</a>
+                        [{if $oView->getReviewAndRatingItemsCount() > 0}]<span class="badge">[{$oView->getReviewAndRatingItemsCount()}]</span>[{/if}]</a>
                 </li>
             [{/if}]
         [{/block}]
